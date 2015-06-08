@@ -5,6 +5,7 @@
 	<head>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/todo.css">
 		<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/todo.js"></script>
@@ -15,39 +16,38 @@
 		<meta name="author" content="Paul Cook">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Paul Cook's Todo List</title>
+		<title>Paul Cook's To-do List</title>
 	</head>
 
 	<body>]
 		<header>
-			<h1>Paul Cook's Todo List</h1>
+			<h1>Paul Cook's To-do List</h1>
 		</header>
 		<main>
 			<article>
-				<section>
-					<h2>New Todo Tasks</h2>
+				<section id="submission">
+					<h2 id="start">New Tasks</h2>
 					<form id="Tasks">
-						 <label>New Task</label><input size="30" name="Task" id="Task" placeholder="Enter New Task" type="text"/>
-						 <button type="submit" class="submit">Submit</button>
+						 <input size="30" name="Task" id="Task" placeholder="Enter New Task" type="text"/>
+						 <button id="submit" type="submit" class="submit">Submit</button>
 					</form>
 				</section>
-				<section>
+				<section id="tobedone">
 					<h2>Things that need to be accomplished</h2>
-					<div class="one">
 					<ul id="todonew">
-					</ul>
-				</div>
+				</ul>
 				</section>
-				<section>
+				<section id="isdone">
 					<h2>Things that have been accomplished</h2>
-						<ul id-"done">	
+						<ul id="done">	
 						</ul>
+						<button id="delete">Clear All Completed Tasks</button>
 				</section>
-				<section>
+				<!--<section>
 					<h2>Things I'd rather be doing than coding javascript</h2>
 						<ul>	
 						</ul>
-				</section>
+				</section>-->
 			</article>
 		</main>	
 	</body>	

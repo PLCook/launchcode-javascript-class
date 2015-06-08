@@ -1,0 +1,91 @@
+body {
+		background: url(http://i37.servimg.com/u/f37/14/17/99/90/notepa10.jpg) no-repeat center center fixed;
+		background-size: cover;
+
+}
+
+h1 {
+	 	text-align: center;
+	 	/*margin: 2em;
+	 	margin-top: 1.3em;
+	 	margin-bottom: 1em;*/
+ 		opacity: 0.65;
+	 	font-size: 5em;
+	 	color: blue;
+	 	text-shadow: .06em .04em black;
+	 	
+	 }
+
+ h2 {
+ 		text-align: center;
+ 		font-size: 3em;
+ }
+
+ #start {
+ 		text-shadow: .03em .02em black;
+ }
+
+#submission {
+		text-align: center;
+}
+
+#tobedone {
+		text-align: center;
+}
+
+#isdone {
+		text-align: center;
+}
+
+ul{
+		list-style-type: none;
+}
+
+li {
+		font-size: 2.2em;
+}
+
+button {
+		font-size: 2em;
+}
+
+label {
+		font-size: 2em;
+}
+
+input {
+		height: 1.5em;
+		font-size: 2em;
+}
+
+#todonew {
+		text-align: left;
+		margin-right: auto;
+		margin-left: auto;
+		width: 30em;
+		min-height: 3em;
+		background-color: white;
+		opacity: .8;
+		border-style: solid;
+		padding-left: 0.5em;
+		
+}
+
+#done {
+		text-align: left;
+		margin-right: auto;
+		margin-left: auto;
+		width: 30em;
+		min-height: 3em;
+		background-color: white;
+		opacity: .8;
+		border-style: solid;
+		padding-left: 0.5em;
+}
+
+.glyphicon-ok-circle {
+	color: green;
+}
+.glyphicon-remove-circle {
+	color: red;
+}
