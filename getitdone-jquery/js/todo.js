@@ -8,6 +8,7 @@ $(document).ready(function() {
             $('#Task').val('');
 
             $('.glyphicon-ok-circle', newline).on('click', function() {
+                //var completed = newline
         	    $('#done').append(newline);
                 $('.glyphicon-ok-circle', newline).remove();
                 $('.glyphicon-remove-circle', newline).remove();
@@ -15,10 +16,11 @@ $(document).ready(function() {
 
             $('.glyphicon-remove-circle', newline).on('click', function() {
                 $(newline).remove();
+                alert("What are you? Lazy?\nDeleting a task before\nyou finish is for the weak!");
             });
 
             $('#delete').on('click', function() {
-                $(newline, ('#done')).remove();
+                $('#done').children().remove();
             });
 
     });
