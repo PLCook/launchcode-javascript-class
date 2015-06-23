@@ -26,6 +26,7 @@ h1 {
 
 #submission {
 		text-align: center;
+		
 }
 
 #tobedone {
@@ -34,6 +35,8 @@ h1 {
 
 #isdone {
 		text-align: center;
+}
+
 }
 
 ul{
@@ -57,11 +60,16 @@ input {
 		font-size: 2em;
 }
 
+#Task {
+	max-width: center;
+}
+
 #todonew {
 		text-align: left;
 		margin-right: auto;
 		margin-left: auto;
 		width: 30em;
+		max-width: 100%;
 		min-height: 3em;
 		background-color: white;
 		opacity: .8;
@@ -75,6 +83,7 @@ input {
 		margin-right: auto;
 		margin-left: auto;
 		width: 30em;
+		max-width: 100%;
 		min-height: 3em;
 		background-color: white;
 		opacity: .8;
